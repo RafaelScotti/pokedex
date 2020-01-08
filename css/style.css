@@ -1,31 +1,32 @@
-h2 {
-    margin: 10px auto;
-    text-align: center;
+body {
     font-family: 'Lora', serif;
-    font-weight: lighter;
 }
-
-.input-pokemon-number,
-.label-pokemon-name{
+.input-pokemon-number {
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 300px;
     display: block;
     margin: 10px auto;
     height: 50px;
-    width: 100px;
+    width: 100%;
     font-size: 36px;
     text-align: center;
     font-weight: bold;
-    font-family: 'Lora', serif;
 }
 
+.input-pokemon-number::placeholder {
+    font-size: 20px;
+}
+
+
 .label-pokemon-name {
-    width: 100%;
     font-size: 26px;
     font-weight: lighter;
 }
 
 .info {
     margin: 10px auto;
-    width: 300px;
+    max-width: 300px;
     height: 300px;
 }
 
@@ -34,8 +35,8 @@ h2 {
     height: 90px;
     background-color: white;
     background-position: center;
-    border: 5px solid rgb(179, 179, 179);
-    background: #efefef;
+    border: 2px solid rgb(179, 179, 179);
+    border-radius: 10px;
     box-sizing: border-box;
     vertical-align: middle;
     position: relative;
@@ -44,6 +45,6 @@ h2 {
 .info #picture-area #picture {
     position: absolute;
     width: 100%;
-    top: 50%;
-    margin-top:-40px;
+    
+    
 }
