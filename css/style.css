@@ -26,19 +26,12 @@ body {
 #label-pokemon-types, 
 #label-pokemon-stats  {
     font-size: 18px;
-    font-weight: lighter;
     display: block;
 }
-
-#label-pokemon-stats {
-    font-size: 18px;
-}
-
 
 .info {
     margin: 10px auto;
     max-width: 300px;
-    
 }
 
 .info #picture-area {
