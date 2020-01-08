@@ -1,0 +1,17 @@
+.input-pokemon-number,
+.label-pokemon-name{
+    display: block;
+    margin: 10px auto;
+    height: 50px;
+    width: 100px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+
+.label-pokemon-name {
+    width: 100%;
+    font-size: 26px;
+    font-weight: lighter;
+}
