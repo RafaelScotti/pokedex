@@ -19,10 +19,16 @@ body {
 }
 
 
-.label-pokemon-name {
+#label-pokemon-name,
+#label-pokemon-id,
+#label-pokemon-height,
+#label-pokemon-weight  {
     font-size: 26px;
     font-weight: lighter;
+    display: block;
 }
+
+
 
 .info {
     margin: 10px auto;
@@ -39,12 +45,11 @@ body {
     border-radius: 10px;
     box-sizing: border-box;
     vertical-align: middle;
-    position: relative;
+    position: relative;   
 }
 
 .info #picture-area #picture {
     position: absolute;
     width: 100%;
-    
-    
 }
+
