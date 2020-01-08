@@ -22,18 +22,23 @@ body {
 #label-pokemon-name,
 #label-pokemon-id,
 #label-pokemon-height,
-#label-pokemon-weight  {
-    font-size: 26px;
+#label-pokemon-weight,
+#label-pokemon-types, 
+#label-pokemon-stats  {
+    font-size: 18px;
     font-weight: lighter;
     display: block;
 }
 
+#label-pokemon-stats {
+    font-size: 18px;
+}
 
 
 .info {
     margin: 10px auto;
     max-width: 300px;
-    height: 300px;
+    
 }
 
 .info #picture-area {
