@@ -1,3 +1,10 @@
+h2 {
+    margin: 10px auto;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+}
+
 .input-pokemon-number,
 .label-pokemon-name{
     display: block;
@@ -14,4 +21,29 @@
     width: 100%;
     font-size: 26px;
     font-weight: lighter;
+}
+
+.info {
+    margin: 10px auto;
+    width: 300px;
+    height: 300px;
+}
+
+.info #picture-area {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    background-position: center;
+    border: 5px solid rgb(179, 179, 179);
+    background: #efefef;
+    box-sizing: border-box;
+    vertical-align: middle;
+    position: relative;
+}
+
+.info #picture-area #picture {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top:-40px;
 }
