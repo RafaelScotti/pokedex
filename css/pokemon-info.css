@@ -1,4 +1,47 @@
-.pokemon-info {
+.conteudo-principal {
     background-image: url("../img/fundo.jpg");
-    height: 100vh;
+    padding: 1px;
+}
+
+.poke-info {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pic-area {
+    background-color: rgba(255, 255, 255, 0.534);
+    border: 2px solid rgba(255, 255, 255, 0.295);
+    border-radius: 25px;
+    max-width: 429px;
+    max-height: 459px;
+    box-shadow: -1px 1px 10px 1px rgb(255, 255, 255);
+}
+
+.descricao {
+    font-size: 22px;
+    color: black;
+}
+
+.desc-fisica {
+    background-color: rgba(64, 63, 68, 0.486);
+    border-radius: 25px;
+    padding: 25px 25px 9px;
+}
+
+.desc-fisica h5 {
+    font-size: 18px;
+    color: white;
+}
+
+.desc-fisica p {
+    font-size: 20px;
+    color: black;
+}
+
+@media (max-width: 767px) {
+
+}
+
+.pic {
+    width: 100%;
 }
