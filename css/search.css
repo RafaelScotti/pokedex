@@ -1,0 +1,49 @@
+/* Search */
+
+.search {
+    height: 120px;
+    padding: 15px 0;
+
+    background-color: rgb(255, 255, 255);
+}
+
+#label-nome-numero {
+    font-family: "Flexo-Regular",arial,sans-serif;
+    font-size: 167.5%;
+    color: #403F44;
+    margin-bottom: -3px;
+}
+
+.search .btn {
+    font-family: "Flexo-Regular",arial,sans-serif;
+    background-color: #403F44;
+    border-color: whitesmoke;
+    
+}
+
+@media (max-width: 767px) {
+    .search {
+        height: 138px;
+        text-align: center;
+        box-sizing: border-box;
+        
+    }
+    
+    #label-nome-numero{
+        display: none;   
+    }
+
+    
+
+    .search .btn {
+        margin-top: 15px;
+        height: 50px;
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    #in-search::placeholder{
+        opacity: 0;
+    }
+}

@@ -1,9 +1,11 @@
 .bg-red {
     background-color: #EB1458;
+    box-shadow: 0px 1px 20px px #EB1458;
 }
 
 nav a {
-    color: #D3D2D7;
+    color: rgb(212, 212, 212);
     margin: 2px 0;
     font-size: 28px;
 }
+
