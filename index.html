@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -10,27 +11,46 @@
     <link rel="stylesheet" href="css/search.css">
     <link rel="stylesheet" href="css/pokemon-info.css">
 </head>
+
 <body>
 
     <header>
         <nav class="navbar navbar-expand-sm navbar-light bg-red">
             <div class="container">
-                <a class="" href="#">Pokédex</a>      
+                <a class="" href="#">Pokédex</a>
             </div>
         </nav>
     </header>
 
 
 
-    <section class="conteudo-principal"> 
+    <section class="conteudo-principal">
         <section class="search">
+
+            <svg id="svg-header" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1392.8 134.01">
+                <defs>
+                    <style>
+                        .cls-1 {
+                            fill: rgba(16, 118, 158, 0.10);
+                        }
+                    </style>
+                </defs>
+                <title>header</title>
+                <path class="cls-1"
+                    d="M0,67.06a143.77,143.77,0,0,0,32.8,33.09c27.3,19.69,55.28,24.76,72,27,71.55,9.59,152.89-3.59,216-9,41.95-3.6,88-2.4,180,0,50.52,1.32,96.68,3.88,189,9,129.05,7.16,152.83,10.94,198,0,35.67-8.64,54.83-18.71,100-25.82a462.44,462.44,0,0,1,134-1.18,585.28,585.28,0,0,0,144,0,585.24,585.24,0,0,0,127-30.44V1.15L0,0Z"
+                    transform="translate(0 0)" />
+                <path class="cls-1" d="M1076.8,253.15" transform="translate(0 0)" />
+                <path class="cls-1" d="M617.8,253.15" transform="translate(0 0)" />
+            </svg>
+
             <div class="container">
-                <div class="form-group">
+                <div class="form-group ">
                     <label id="label-nome-numero" for="in-search">Nome ou número</label>
                     <div class="row">
                         <div class="col-12 col-md-6">
-                            <input type="text" name="in-search" id="in-search" class="form-control d-block" placeholder="Nome ou numero">
-                        </div>   
+                            <input type="text" name="in-search" id="in-search" class="form-control d-block"
+                                placeholder="Nome ou numero">
+                        </div>
                         <div class="col-6 col-md-3 col-lg-2">
                             <button class="btn btn-primary btn-block" id="go">Go</button>
                         </div>
@@ -40,20 +60,36 @@
                     </div>
                 </div>
             </div>
+
+
+
+
+
+
+
         </section>
         <section class="poke-info">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="pic-area">
-                            <img class="pic" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png">
-                            </img>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="pic-area">
+                                    <img class="pic" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png">
+                                    </img>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                Grafico
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="descricao">
                             <p>
-                                There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.
+                                There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk
+                                grow thick and strong. If it starts spending more time lying in the sunlight, it's a
+                                sign that the bud will bloom into a large flower soon.
                             </p>
                         </div>
                         <section class="desc-fisica">
@@ -78,13 +114,18 @@
                 </div>
             </div>
         </section>
-    </section> 
+    </section>
+
+    <section>
+
+    </section>
 
 
 
-    
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

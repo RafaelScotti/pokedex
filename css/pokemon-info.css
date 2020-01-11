@@ -9,7 +9,7 @@
 }
 
 .pic-area {
-    background-color: rgba(255, 255, 255, 0.534);
+    background-color: rgba(59, 149, 174, 0.185);
     border: 2px solid rgba(255, 255, 255, 0.295);
     border-radius: 25px;
     max-width: 429px;
@@ -23,7 +23,7 @@
 }
 
 .desc-fisica {
-    background-color: rgba(64, 63, 68, 0.486);
+    background-color: #07618583;
     border-radius: 25px;
     padding: 25px 25px 9px;
 }
