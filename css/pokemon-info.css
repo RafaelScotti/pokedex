@@ -9,11 +9,11 @@
 }
 
 .pic-area {
-    background-color: rgba(59, 149, 174, 0.185);
-    border: 2px solid rgba(255, 255, 255, 0.295);
+    background-color: rgba(133, 13, 37, 0.295);
+    border: 1px solid rgba(255, 255, 255, 0.295);
     border-radius: 25px;
-    max-width: 429px;
-    max-height: 459px;
+    max-width: 538px;
+    max-height: 538px;
     box-shadow: -1px 1px 10px 1px rgb(255, 255, 255);
 }
 

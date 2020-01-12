@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/search.css">
     <link rel="stylesheet" href="css/pokemon-info.css">
+    <link rel="stylesheet" href="css/myChart.css">
 </head>
 
 <body>
@@ -80,7 +81,10 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                Grafico
+                                <div class="chart-area">
+                                    <canvas id="my-chart"></canvas>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -119,11 +123,11 @@
     <section>
 
     </section>
+    
 
-
-
-
-
+    
+    <script src="./chart/Chart.js"></script>
+    <script src="./js/myChart.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
