@@ -1,5 +1,7 @@
 .conteudo-principal {
+    background-color: #7fad71;
     background-image: url("../img/fundo.jpg");
+    background-repeat:  repeat-x;
     padding: 1px;
 }
 
