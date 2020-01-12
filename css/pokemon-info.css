@@ -41,7 +41,16 @@
 @media (max-width: 767px) {
 
 }
-
 .pic {
     width: 100%;
+}
+
+.tipo {
+    margin-top: 20px;
+}
+
+.tipo h3 {
+    font-size: 26px;
+    font-weight: normal;
+    margin-top: 20px;
 }

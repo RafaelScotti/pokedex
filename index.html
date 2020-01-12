@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/search.css">
     <link rel="stylesheet" href="css/pokemon-info.css">
     <link rel="stylesheet" href="css/myChart.css">
+    <link rel="stylesheet" href="css/button.css">
 </head>
 
 <body>
@@ -76,7 +77,8 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="pic-area">
-                                    <img class="pic" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png">
+                                    <img class="pic"
+                                        src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png">
                                     </img>
                                 </div>
                             </div>
@@ -84,36 +86,58 @@
                                 <div class="chart-area">
                                     <canvas id="my-chart"></canvas>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="descricao">
-                            <p>
-                                There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk
-                                grow thick and strong. If it starts spending more time lying in the sunlight, it's a
-                                sign that the bud will bloom into a large flower soon.
-                            </p>
-                        </div>
-                        <section class="desc-fisica">
-                            <div class="row">
-                                <div class="col-6">
-                                    <h5>Altura</h5>
-                                    <p>1.0 m</p>
-                                    <h5>Peso</h5>
-                                    <p>13.0 kg</p>
-                                    <h5>Sexo</h5>
-                                    <p>M/F</p>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="descricao">
+                                    <p>
+                                        There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and
+                                        trunk
+                                        grow thick and strong. If it starts spending more time lying in the sunlight,
+                                        it's a
+                                        sign that the bud will bloom into a large flower soon.
+                                    </p>
                                 </div>
-                                <div class="col-6">
-                                    <h5>Categoria</h5>
-                                    <p>Semente</p>
-                                    <h5>Habilidades</h5>
-                                    <p>Overgrow</p>
-                                </div>
+                                <section class="desc-fisica">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h5>Altura</h5>
+                                            <p>1.0 m</p>
+                                            <h5>Peso</h5>
+                                            <p>13.0 kg</p>
+                                            <h5>Sexo</h5>
+                                            <p>M/F</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <h5>Categoria</h5>
+                                            <p>Semente</p>
+                                            <h5>Habilidades</h5>
+                                            <p>Overgrow</p>
+                                        </div>
+                                    </div>
+                                </section>
                             </div>
-                        </section>
+
+                            <div class="col-12">
+                                <section class="tipo">
+                                    <h3>Tipo</h3>
+                                    <button class="btn btn-tipo btn-grass ">Grass</button>
+                                    <button class="btn btn-tipo btn-poison">Poison</button>
+
+                                    <h3>Fraquesas</h3>
+                                    <button class="btn btn-tipo btn-fire ">Fire</button>
+                                    <button class="btn btn-tipo btn-flying">Flying</button>
+                                    <button class="btn btn-tipo btn-ice">Ice</button>
+                                    <button class="btn btn-tipo btn-psychic">Psychic</button>
+
+                                </section>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -123,9 +147,9 @@
     <section>
 
     </section>
-    
 
-    
+
+
     <script src="./chart/Chart.js"></script>
     <script src="./js/myChart.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
