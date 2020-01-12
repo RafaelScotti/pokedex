@@ -3,6 +3,32 @@
     padding: 1px;
 }
 
+
+.nome-id {
+    font-weight: lighter;
+    font-size: 52px;
+    text-align: center;
+    margin:0 auto 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-bottom: 3px solid whitesmoke;
+    border-radius: 50px;
+    max-width: 600px;
+    
+}
+
+#id {
+    font-size: 40px;
+    margin-left: 5px;
+    color: rgb(65, 65, 65);
+}
+
+#nome {
+    margin-right: 5px;
+}
+
+
+
 .poke-info {
     margin-top: 30px;
     margin-bottom: 30px;

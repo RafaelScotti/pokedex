@@ -1,5 +1,5 @@
 .chart-area {
-    background-color: #076185;
+    background-color: #0761852f;
     max-width: 538px;
     height: 300px;
     padding: 10px;
@@ -13,6 +13,6 @@
 #my-chart {
     padding: 0 10px;
     border-radius: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
