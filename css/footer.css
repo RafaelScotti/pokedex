@@ -1,0 +1,13 @@
+footer {
+    border-top: 1px solid whitesmoke;
+    padding-top: 20px;
+    height: 100px;
+    background-color: #10769E;
+    text-align: center;
+}
+
+footer h3 {
+    font-weight: lighter;
+    padding-left: 20px;
+    color: whitesmoke;
+}
